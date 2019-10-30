@@ -1,0 +1,161 @@
+Output 1: 
+nz and the wave
+c_weight = 1e3
+s_weight = 1e-2
+
+Output 2:
+oli and VK abstract
+c_weight = 1e3
+s_weight = 1e-2
+
+Output 3:
+london and starry night
+Trial 1
+c_weight = 1
+s_weight = 1e-2
+Notes: Smoother and more noticeable style integration
+Trial 2
+c_layer is conv4_2 instead of conv5_2
+c_weight = 1e3
+s_weight = 1e-2
+Notes: didn't save, was useless
+Trial 3 
+c_layer is conv4_2 instead of conv5_2
+c_weight = 1
+s_weight = 1e-2
+Notes: Very similar to trial 1
+Trial 4 
+c_layer is conv4_2 instead of conv5_2
+c_weight = 1
+s_weight = 1
+Notes: Very similar to trial 1
+
+Output 4: (Source http://astridstoeppel.com/minimalism-art-article/gerhard-richter-colorsastrid-stoeppel-astridstoeppel-com/)
+f1 and Gerhard Richter
+Trial 1
+c_weight = 1
+s_weight = 1e-2
+Notes: Almost loses shape of content. For future trials, increase c_weight and/or decrease s_weight
+Trial 2
+c_weight = 1e3
+s_weight = 1e-2
+Notes: Gets better detail of content, while keeping style. I like it more than trial 1
+
+Output 5:
+Ottawa and Random1
+Trial 1
+c_weight = 1e3
+s_weight = 1e-2
+Notes: Could do with higher style weighting, will lower content a little too
+Trial 2
+c_weight = 1e2
+s_weight = 1e-1
+Notes: More poainting like, loose content and better style integration
+
+Output 6:
+Humber and place des lices
+c_weight = 1e3
+s_weight = 1e-1
+Notes: came out good, could use some experimentation
+
+Output 7:
+nico and jefdesigns
+Trial 1
+c_weight = 1e3
+s_weight = 1e-1
+Notes: lost too much content for my liking
+Trial 2
+c_weight = 1e3
+s_weight = 1e-2
+Notes: could do with higher content and style
+
+Output 8:
+nz2 and starr night
+c_weight = 1
+s_weight = 1e-2
+Notes: Pretty good, maybe more content
+
+Output 9:
+caesar and dali
+Trial 1
+c_weight = 1e2
+s_weight = 1e-2
+Notes: Needs more content
+Trial 2
+c_weight = 1e3
+s_weight = 1e-2
+Notes: better content, style is still a bit washed
+Trial 3
+c_weight = 1e3
+s_weight = 1e3
+Notes
+
+Output 10:
+london2 and ashkanazi
+Trial 1
+c_weight = 1e3
+s_weight = 1e-2
+Notes: needs more style
+Trial 2
+
+Output 11:
+london2 and starry-night
+Trial 1
+c_weight = 1e3
+s_weight = 1e-1
+Notes: good, though not very interesting
+
+Output 12:
+bottas and lego
+Trial 1
+c_weight = 1e3
+s_weight = 1e3
+Notes: Cool, but not an interesting subject
+
+Output 13:
+wave and pop
+c_weight = 1e3
+s_weight = 1e1
+Notes: cool, maybe more content
+
+Output 14:
+Shark and place-des-lices
+Trial 1
+c_weight = 1e3
+s_weight = 1e1
+Notes: less style
+Trial 2
+c_weight = 1e4
+s_weight = 1e-2
+Notes: less style
+
+Output 15:
+Trial 1
+london3 and place-des-lices
+c_weight = 1e4
+s_weight = 1e-2
+Notes: less content
+Trial 2
+c_weight = 1e3
+s_weight = 1e-1
+Notes: less content
+Trial 3
+conv4_2
+c_weight = 1e4
+s_weight = 1e2
+Notes: the same as 2
+
+Output 16:
+Trial 1
+wave and Gerhard-Richter
+c_weight = 1e3
+s_weight = 1e-1
+Notes: Cool, maybe more style?
+
+Output 16:
+Trial 1
+streak and starry night
+c_weight = 1e3
+s_weight = 1e1
+Notes: Cool, maybe more content?
+
